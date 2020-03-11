@@ -38,6 +38,7 @@ let PPA_Scoops = "PPAScoops.swf";
 let PPA_Sushi = "PPASushi.swf";
 let PPA_Wings = "PPAWings.swf";
 let raze3 = "raze3.swf";
+let sfh1 = "SFH1.swf";
 let sfh2 = "SFH2.swf";
 let superMario63 = "supermario63.swf";
 let swordsAndSandals2 = "SWAS2.swf";
@@ -238,6 +239,13 @@ function changeGame(game) {
       newGame.setAttribute("width", "800px");
       newGame.style.left = "25%";
       title.innerHTML = "Raze 3";
+      break;
+      
+    case sfh1:
+      newGame.setAttribute("height", "600px");
+      newGame.setAttribute("width", "800px");
+      newGame.style.left = "25%";
+      title.innerHTML = "Strike Force Heros 1";
       break;
       
     case sfh2:
