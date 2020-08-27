@@ -1,3 +1,6 @@
+/*
+  Author: Jacob Angel.
+*/
 // Slider Variables
 let redSlider;
 let greenSlider;
